@@ -1,5 +1,5 @@
 <template>
   <footer class="copy">
-    Copy &copy; FungLeo
+    <button type="button" class="btn btn-default">关于我们</button>
   </footer>
 </template>

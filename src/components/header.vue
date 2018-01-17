@@ -17,7 +17,7 @@
             <li><a href="#about">朋友圈</a></li>
             <li><a href="#contact">我的学习</a></li>
             <li><a href="#contact">我的派送</a></li>
-            <li><a href="#contact">个人资料</a></li>
+            <li><router-link to="/student/myresume">个人资料</router-link></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../navbar/">Default</a></li>
