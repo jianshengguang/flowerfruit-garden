@@ -14,15 +14,17 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">我的企业</a></li>
-            <li><a href="#about">朋友圈</a></li>
+            <li><router-link to="/student/ciroffriend">朋友圈</router-link></li>
             <li><a href="#contact">我的学习</a></li>
             <li><a href="#contact">我的派送</a></li>
             <li><router-link to="/student/myresume">个人资料</router-link></li>
+            <li><search></search></li>
           </ul>
+          
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            <!-- <li><a href="../navbar/">Default</a></li> -->
+            <li class="active"><a href="../navbar-static-top/">登录</a></li>
+            <li><a href="./">注册 <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -30,3 +32,12 @@
   </div>
   
 </template>
+<script>
+import search from './search'
+export default {
+  components: {
+    search
+  }
+}
+</script>
+
