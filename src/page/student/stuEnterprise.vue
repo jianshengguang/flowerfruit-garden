@@ -6,6 +6,9 @@
       <stuEnGrid></stuEnGrid>
       <stuEnGrid></stuEnGrid>
     </div>
+    <div class="moreEnterperise">
+      <button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>查看更多</button>
+    </div>
   </div>
 </template>
 <script>
